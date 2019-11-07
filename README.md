@@ -7,3 +7,7 @@ LiDAR (Light Detection and Ranging) systems are widely used in mobile and airbor
 <p align="justify">
 Georeferencing is performed by combining LiDAR angles and distance measurements, IMU attitude angles and GNSS positions with a point positioning mathematical model. This model depends on several parameters which are sources of systematic errors that can be observed by comparing overlapping survey strips [1].
 </p>
+<p align="center">
+![Screenshot](resources/images/BeforeAfterBoresightCalibration.png)
+Figure 1. Boresight calibration of scans: before (left) and after (right)
+</p>
