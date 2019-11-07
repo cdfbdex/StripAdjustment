@@ -44,6 +44,8 @@ The data selection for the adjustment of boresight angles requires georeferenced
 the optimization model to estimate boresight angles incorporates the georeferencing process. For a given
 LiDAR return, the georeferencing can be done as follows:
 
+![Screenshot](resources/images/BoresightCalibration.png)
+
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
