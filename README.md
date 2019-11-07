@@ -10,7 +10,7 @@ Georeferencing is performed by combining LiDAR angles and distance measurements,
 
 ### Problem
 <p align="justify">
-While a point cloud  may seem clear at high-scale, most of the time two or more structures appear in point clouds where there should only be one. This is a problem with the consistency of the point cloud due to the alignment of the LiDAR frame and the IMU frame. In the literature this problem has been addressed and it is called boresight calibration. See <b>Figure 1<b> for an example of boresight calibration. 
+While a point cloud  may seem clear at high-scale, most of the time two or more structures appear in point clouds where there should only be one. This is a problem with the consistency of the point cloud due to the alignment of the LiDAR frame and the IMU frame. In the literature this problem has been addressed and it is called boresight calibration. See <b>Figure 1</b> for an example of boresight calibration. 
 </p>
 
 ![Screenshot](resources/images/BeforeAfterBoresightCalibration.png)
