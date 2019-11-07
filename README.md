@@ -1,4 +1,4 @@
-# StripAdjustment
+# StripAdjustment by Boresight Calibration
 
 ### Introduction
 <p align="justify">
