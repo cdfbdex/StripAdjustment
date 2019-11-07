@@ -1,4 +1,4 @@
-# StripAdjustment by Boresight Calibration
+# Airborne LiDAR Strip Adjustment by Boresight Calibration
 
 ### Introduction
 <p align="justify">
