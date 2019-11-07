@@ -40,6 +40,10 @@ The following frames will be used:
 
 The objective of this paper is to design a calibration method for estimating the frame transformation from the (bS) frame to the (bI) frame, denoted by CbIbS (cosine type transformation) which depends on three boresight angles, denoted by <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\phi" title="deltaphi" /> the boresight roll angle, <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\theta" title="deltaphi" />, the boresight pitch angle and <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\psi" title="deltaphi" />, the boresight yaw angle.
 
+The data selection for the adjustment of boresight angles requires georeferenced points. Moreover,
+the optimization model to estimate boresight angles incorporates the georeferencing process. For a given
+LiDAR return, the georeferencing can be done as follows:
+
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
