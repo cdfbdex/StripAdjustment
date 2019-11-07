@@ -17,4 +17,5 @@ While a point cloud  may seem clear at high-scale, most of the time two or more 
 <p align="center"><b>Figure 1.</b> Boresight calibration of scans: before (left) and after (right).</p>
 
 ### References
-
+<b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
+2003, 69, 1235–1242.
