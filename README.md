@@ -1,7 +1,7 @@
 # StripAdjustment
 
 ### Introduction
-<p style="text-align: justify;">  
+<p align="justify">
 LiDAR (Light Detection and Ranging) systems are widely used in mobile and airborne mapping at
 various scales. Airborne surveys enable to map wide areas at high speed and relatively low resolution,
 while unmanned aerial vehicles (UAV) are used to get a detailed description of local areas. LiDAR systems
