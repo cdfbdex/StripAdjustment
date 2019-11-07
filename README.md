@@ -8,6 +8,13 @@ LiDAR (Light Detection and Ranging) systems are widely used in mobile and airbor
 Georeferencing is performed by combining LiDAR angles and distance measurements, IMU attitude angles and GNSS positions with a point positioning mathematical model. This model depends on several parameters which are sources of systematic errors that can be observed by comparing overlapping survey strips [1].
 </p>
 
+### Problem
+<p align="justify">
+While a point cloud  may seem clear at high-scale, most of the time two or more structures appear in point clouds where there should only be one. This is a problem with the consistency of the point cloud due to the alignment of the LiDAR frame and the IMU frame. In the literature this problem has been addressed and it is called boresight calibration. See <b>Figure 1<b> for an example of boresight calibration. 
+</p>
+
 ![Screenshot](resources/images/BeforeAfterBoresightCalibration.png)
 <p align="center"><b>Figure 1.</b> Boresight calibration of scans: before (left) and after (right).</p>
+
+### References
 
