@@ -36,6 +36,8 @@ at a chosen reference point.
 5. The IMU body frame, denoted by (bI).
 6 The LiDAR body frame, denoted by (bS).
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=P_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P_n" title="P_n" /></a>
+
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
