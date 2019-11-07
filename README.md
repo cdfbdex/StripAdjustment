@@ -26,7 +26,7 @@ practice, the IMU gives orientation in a local geodetic frame (LGF), as most IMU
 surveying are not accurate enough to distinguish the LAF from the LGF. Therefore, we shall denote
 the LGF frame by (n) (navigation frame) to avoid confusion between geodetic and astronomical
 frames.). The IMU is composed by three accelerometers and three gyrometers, eventually hybridized
-with the GNSS system. It delivers the three attitude angles j, q, y of the IMU with respect to the LGF.
+with the GNSS system. It delivers the three attitude angles <img src="https://latex.codecogs.com/gif.latex?P_n" title="\alpha" />, <img src="https://latex.codecogs.com/gif.latex?P_n" title="\theta" /> and <img src="https://latex.codecogs.com/gif.latex?P_n" title="\gamma" />of the IMU with respect to the LGF.
 3. A LiDAR, delivering relative distances from the LiDAR optical center (OC) to the ground. The LiDAR
 output is generally given in Cartesian coordinates within the LiDAR frame.
 The following frames will be used:
