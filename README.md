@@ -38,7 +38,7 @@ The following frames will be used:
 
 #### Boresight Calibration
 
-The objective of this paper is to design a calibration method for estimating the frame transformation from the (bS) frame to the (bI) frame, denoted by CbIbS (cosine type transformation) which depends on three boresight angles, denoted by <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\phi" title="deltaphi" /> the boresight roll angle, <img src="https://latex.codecogs.com/gif.latex?\delta \theta" title="deltatheta" />, the boresight pitch angle and <img src="https://latex.codecogs.com/gif.latex?\delta \psi" title="deltapsi" />, the boresight yaw angle.
+The objective of this paper is to design a calibration method for estimating the frame transformation from the (bS) frame to the (bI) frame, denoted by CbIbS (cosine type transformation) which depends on three boresight angles, denoted by <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\phi" title="deltaphi" /> the boresight roll angle, <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\theta" title="deltaphi" />, the boresight pitch angle and <img src="https://latex.codecogs.com/gif.latex?\delta" title="deltaphi" /><img src="https://latex.codecogs.com/gif.latex?\psi" title="deltaphi" />, the boresight yaw angle.
 
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
