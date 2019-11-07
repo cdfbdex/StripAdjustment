@@ -9,5 +9,5 @@ Georeferencing is performed by combining LiDAR angles and distance measurements,
 </p>
 
 ![Screenshot](resources/images/BeforeAfterBoresightCalibration.png)
-<center>Figure 1. Boresight calibration of scans: before (left) and after (right)
+<p align="center">Figure 1. Boresight calibration of scans: before (left) and after (right).</p>
 
