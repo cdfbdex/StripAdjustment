@@ -1,2 +1,2 @@
 # StripAdjustment
-Boresight adjustment of Point Clouds acquired with Airborne Lidar 
+Boresight calibration of Point Clouds acquired with Airborne Lidar 
