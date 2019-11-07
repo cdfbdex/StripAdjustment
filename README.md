@@ -20,7 +20,7 @@ While a point cloud  may seem clear at high-scale, most of the time two or more 
 A typical LiDAR survey system consists of:
 
 1. A positioning system giving the position of a positioning reference point (PRP), is denoted by
-$Pn$ hereafter.
+$$Pn$$ hereafter.
 2. An IMU giving its orientation with respect to a local astronomic frame (LAF) (Let us mention that in
 practice, the IMU gives orientation in a local geodetic frame (LGF), as most IMU used in airborne
 surveying are not accurate enough to distinguish the LAF from the LGF. Therefore, we shall denote
