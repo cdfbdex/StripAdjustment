@@ -51,21 +51,35 @@ LiDAR return, the georeferencing can be done as follows:
 #### 1. Acquistion
 #### [readQuanergyM8Lidar:](stripadjustment/readQuanergyM8Lidar.py)
 
-- <b>Description</b>:  This module implement 3 classes and 1 method for reading Point Cloud information from Quanergy M8 Lidar.
-- <b>Company</b>:       LiDARiT          
-- <b>Input</b>:        File name with .lid extension.
+- <b>Description</b>:  This module implement 3 classes and 1 method for reading Point Cloud information from Quanergy M8 Lidar.        
+- <b>Input</b>:        File name with .lid extension. Parallel support.
 - <b>Output</b>:       Pandas (Python) Dataframe with the following 10 fields: PacketTime(SoW),  Block, Azimuth, Channel, Return, Distance, Intensity, X, Y and Z.
 
 #### [readIMUGPSQuanergyM8:](stripadjustment/readIMUGPSQuanergyM8.py)
 
-- <b>Description</b>:  This module implement 1 class and 1 method for reading IMU and GPS information from Quanergy M8 Lidar.
-- <b>Company</b>:      LiDARiT          
+- <b>Description</b>:  This module implement 1 class and 1 method for reading IMU and GPS information from Quanergy M8 Lidar.       
 - <b>Input</b>:        File name with .out extension.
 - <b>Output</b>:       Pandas (Python) Dataframe with the following 20 fields: GPSTime(SoW), Latitude, Longitude, Altitude, X, Y, Z, Roll, Pitch, Heading, VelX, VelY,  VelZ, AccX, AccY, AccZ, GyroX, GyroY, GyroZ and WanderAngle
+
+##### Main Results: 
+1. Loading 5 GB of LID (binary) data may take 20 min. On the contrary 8 GB of CSV (ASCII) data take 2 min to load.
+2. Loading IMU/GPS data take 2 minute to load from OUT binary file. When loading from CSV it takes less than a minute.
+
 
 #### 2. Timeline Matching: IMU/GPS - Lidar
 
 #### 3. Registration
+<p align="justify">
+The goal of point set registration is to assign correspondences between two sets of points and to recover the transformation that maps one point set to the other. A probabilistic method, called the <b>Coherent Point Drift (CPD)</b> algorithm, for both rigid and non-rigid point set registration is implemented. We consider the alignment of two point sets as a probability density estimation problem. We fit the GMM centroids (representing the first point set) to the data (the second point set) by maximizing the likelihood. We force the GMM centroids to move coherently as a group to preserve the topological structure of the point sets. 
+  
+The CPD method is more robust than conventional iterative closest point (ICP) for registration.
+</p>
+
+#### [cpdRegistration:](stripadjustment/cpdRegistration.py)
+
+- <b>Description</b>:  This module implement 1 method for registering two point clouds.
+- <b>Output</b>:       Scale (real), Rotation (Matrix) and Translation (vector).
+
 
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
