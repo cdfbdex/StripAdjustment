@@ -68,9 +68,13 @@ LiDAR return, the georeferencing can be done as follows:
 
 #### 2. Timeline Matching: IMU/GPS - Lidar
 
+![Screenshot](resources/images/Time1.jpeg)
+![Screenshot](resources/images/Time2.jpeg)
+![Screenshot](resources/images/Time3.jpeg)
+
 #### 3. Registration
 <p align="justify">
-The goal of point set registration is to assign correspondences between two sets of points and to recover the transformation that maps one point set to the other. A probabilistic method, called the <b>Coherent Point Drift (CPD)</b> algorithm, for both rigid and non-rigid point set registration is implemented. We consider the alignment of two point sets as a probability density estimation problem. We fit the GMM centroids (representing the first point set) to the data (the second point set) by maximizing the likelihood. We force the GMM centroids to move coherently as a group to preserve the topological structure of the point sets. 
+The goal of point set registration is to assign correspondences between two sets of points and to recover the transformation that maps one point set to the other. A probabilistic method, called the <b>Coherent Point Drift (CPD)</b> [2] algorithm, for both rigid and non-rigid point set registration is implemented. We consider the alignment of two point sets as a probability density estimation problem. We fit the GMM centroids (representing the first point set) to the data (the second point set) by maximizing the likelihood. We force the GMM centroids to move coherently as a group to preserve the topological structure of the point sets. 
   
 The CPD method is more robust than conventional iterative closest point (ICP) for registration.
 </p>
@@ -80,7 +84,12 @@ The CPD method is more robust than conventional iterative closest point (ICP) fo
 - <b>Description</b>:  This module implement 1 method for registering two point clouds, 1 method for converting raw, pitch yaw to quaternion and 1 method for rotating points using quaternions (parallel support with pymp).
 - <b>Output</b>:       Scale (real), Rotation (Matrix) and Translation (vector).
 
+##### Main result:
+Rotation is been accelerated thanks to multicore implementation
+
+![Screenshot](resources/images/lengthDataPerTimestamp.PNG)
 
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
+<b>[1]</b> Andriy Myronenko and Xubo Song. Point Set registration: Coherent Point Drift (CPD).  IEEE Transactions on Pattern Analysis and Machine Intelligence. 2010. Volume: 32 , Issue: 12. https://arxiv.org/pdf/0905.2635.pdf
