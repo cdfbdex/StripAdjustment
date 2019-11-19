@@ -46,6 +46,22 @@ LiDAR return, the georeferencing can be done as follows:
 
 ![Screenshot](resources/images/BoresightCalibration.png)
 
+### Development
+
+#### Acquistion
+##### readQuanergyM8Lidar:
+
+- <b>Description</b>:  This module implement 3 classes and 1 method for reading Point Cloud information from Quanergy M8 Lidar.
+- <b>Developed by</b>: Juan Camilo Bonilla, Andrés Suarez, Carlos Ferrin.
+- <b>Company</b>:       LiDARiT          
+- <b>Input</b>:        File name with .lid extension.
+- <b>Output</b>:       Pandas (Python) Dataframe with the following 10 fields: PacketTime(SoW),  Block, Azimuth, Channel, Return, Distance, Intensity, X, Y and Z.
+
+
+#### Timeline Matching: IMU/GPS - Lidar
+
+#### Registration
+
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
