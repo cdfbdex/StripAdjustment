@@ -1,2 +1,4 @@
 opencv-python==4.1.0.25
 numpy==1.17.0
+pycpd==1.0.5
+pyquaternion==0.9.5
