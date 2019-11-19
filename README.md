@@ -48,19 +48,24 @@ LiDAR return, the georeferencing can be done as follows:
 
 ### Development
 
-#### Acquistion
-##### readQuanergyM8Lidar:
+#### 1. Acquistion
+#### [readQuanergyM8Lidar:](stripadjustment/readQuanergyM8Lidar.py)
 
 - <b>Description</b>:  This module implement 3 classes and 1 method for reading Point Cloud information from Quanergy M8 Lidar.
-- <b>Developed by</b>: Juan Camilo Bonilla, Andrés Suarez, Carlos Ferrin.
 - <b>Company</b>:       LiDARiT          
 - <b>Input</b>:        File name with .lid extension.
 - <b>Output</b>:       Pandas (Python) Dataframe with the following 10 fields: PacketTime(SoW),  Block, Azimuth, Channel, Return, Distance, Intensity, X, Y and Z.
 
+#### [readIMUGPSQuanergyM8:](stripadjustment/readIMUGPSQuanergyM8.py)
 
-#### Timeline Matching: IMU/GPS - Lidar
+- <b>Description</b>:  This module implement 1 class and 1 method for reading IMU and GPS information from Quanergy M8 Lidar.
+- <b>Company</b>:      LiDARiT          
+- <b>Input</b>:        File name with .out extension.
+- <b>Output</b>:       Pandas (Python) Dataframe with the following 20 fields: GPSTime(SoW), Latitude, Longitude, Altitude, X, Y, Z, Roll, Pitch, Heading, VelX, VelY,  VelZ, AccX, AccY, AccZ, GyroX, GyroY, GyroZ and WanderAngle
 
-#### Registration
+#### 2. Timeline Matching: IMU/GPS - Lidar
+
+#### 3. Registration
 
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
