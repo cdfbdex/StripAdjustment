@@ -92,4 +92,5 @@ Rotation is been accelerated thanks to multicore implementation
 ### References
 <b>[1]</b> Filin, S. Recovery of systematic biases in laser altimetry data using natural surfaces. Photogramm. Eng. Remote Sens.
 2003, 69, 1235–1242.
+
 <b>[2]</b> Andriy Myronenko and Xubo Song. Point Set registration: Coherent Point Drift (CPD).  IEEE Transactions on Pattern Analysis and Machine Intelligence. 2010. Volume: 32 , Issue: 12. https://arxiv.org/pdf/0905.2635.pdf
