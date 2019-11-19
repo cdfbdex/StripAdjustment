@@ -67,7 +67,7 @@ LiDAR return, the georeferencing can be done as follows:
 
 
 #### 2. Timeline Matching: IMU/GPS - Lidar
-In the following images you can observer the mismatch timeline problem when plotting lidar vs imu/gps synchronized timelines:
+In the following images you can observe the mismatch timeline problem when plotting lidar vs imu/gps synchronized timelines:
 
 ![Screenshot](resources/images/Time1.jpeg)
 ![Screenshot](resources/images/Time2.jpeg)
