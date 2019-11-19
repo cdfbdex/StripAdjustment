@@ -90,6 +90,12 @@ The CPD method is more robust than conventional iterative closest point (ICP) fo
 - <b>Output</b>:       Scale (real), Rotation (Matrix) and Translation (vector).
 
 ##### Main result:
+
+Registration is very fast and robust to noise.
+
+![Screenshot](resources/images/Registration.PNG)
+
+
 Rotation is been accelerated thanks to multicore implementation
 
 ![Screenshot](resources/images/lengthDataPerTimestamp.PNG)
