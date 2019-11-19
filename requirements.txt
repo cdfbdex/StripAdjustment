@@ -3,3 +3,4 @@ numpy==1.17.0
 pycpd==1.0.5
 pyquaternion==0.9.5
 pandas==0.22.0
+pymp-pypi==0.4.2
