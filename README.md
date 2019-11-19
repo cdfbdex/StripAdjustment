@@ -77,7 +77,7 @@ The CPD method is more robust than conventional iterative closest point (ICP) fo
 
 #### [cpdRegistration:](stripadjustment/cpdRegistration.py)
 
-- <b>Description</b>:  This module implement 1 method for registering two point clouds, 1 method for converting raw, pitch yaw to quaternion and 1 method for rotating points using quaternio with parallel support.
+- <b>Description</b>:  This module implement 1 method for registering two point clouds, 1 method for converting raw, pitch yaw to quaternion and 1 method for rotating points using quaternions (parallel support with pymp).
 - <b>Output</b>:       Scale (real), Rotation (Matrix) and Translation (vector).
 
 
